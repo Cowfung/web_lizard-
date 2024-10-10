@@ -1,0 +1,60 @@
+.noidung {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progess {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: black;
+    background: whitesmoke linear-gradient(to right, transparent 50%, #008080 0);
+
+}
+
+.progess h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    z-index: 12;
+    font-weight: 500;
+}
+
+.progess h3 span {
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.progess::before {
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.progess::after {
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background-color: rgb(221, 219, 219);
+}
+
+.progess::before {
+    background: whitesmoke;
+    transform: rotate(calc(((3.54 - 0)*0.005turn)));
+}
+
+.delete {
+    width: 300px;
+}
+
+.delete tbody tr td i:hover {
+    cursor: pointer;
+}

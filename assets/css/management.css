@@ -1,0 +1,66 @@
+.khuon_management {
+    width: auto;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.192);
+
+}
+
+.duongdan {
+    padding-top: 30px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.submenu {
+    margin-top: 40px;
+    height: auto;
+    max-width: 80%;
+    margin-left: 60px;
+
+}
+
+.submenu .a_management {
+    height: 283px;
+    width: 296px;
+    background-color: rgba(128, 128, 128, 0.308);
+    border-radius: 7px;
+    float: left;
+    height: 280px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+.submenu .a_management .img_management {
+    background-color: #55bfa2;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.a_management,
+.p_management {
+    text-align: center;
+    font-weight: 500px;
+
+
+}
+
+.khuon_management .duongdan .a_management:hover {
+    color: white;
+
+}
+
+.submenu .a_management:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+
+
+}
+
+.submenu {
+    flex-wrap: wrap;
+}

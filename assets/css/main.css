@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: montserrat;
+
+
+}
+
+a {
+    color: black;
+    line-height: 20px;
+    font-weight: 200px;
+}
+
+
+header {
+    width: auto;
+    height: 56px;
+    background-color: #008080;
+}
+
+.khuon {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 25px;
+}
+
+.logo {
+    width: 108px;
+    height: 18px;
+    margin: 18px 0;
+    cursor: pointer;
+}
+
+.dangnhap {
+
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.dangnhap:hover {
+    background-color: #30535321;
+}
+
+.dangnhap a {
+    padding-left: 100px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+/*--------------------------------------------*/
+
+.khuon3 {
+    height: 100%;
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu {
+    height: 100px;
+    width: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+
+}
+
+.menu div {
+    display: flex;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+
+}
+
+.danhmuc {
+    padding: 10px 0;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.danhmuc .nd_main {
+
+    height: 283px;
+    width: 296px;
+    box-shadow: 3px 3px 6px #00000029;
+    margin-bottom: 16px;
+    margin-right: 32px;
+    margin-top: 16px;
+
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px #00000029;
+    box-sizing: border-box;
+    float: left;
+    height: 280px;
+    margin: 22.5px 45px 22.5px 0;
+    position: relative;
+}
+
+hr {
+    border-bottom-width: 0;
+    border-top-width: 0.5px;
+    color: #707070;
+    left: 0;
+    margin: 0;
+    opacity: .53;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.app {
+    align-items: center;
+    background-color: #55bfa2;
+    border-radius: 50%;
+    display: flex;
+    height: 31%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 13%;
+    position: relative;
+    width: 29%;
+
+}
+
+.app img {
+    height: 51px;
+    width: 51px;
+}
+
+.danhmuc a,
+.danhmuc p {
+    margin: 8% 10% 4%;
+}
+
+.danhmuc a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+
+}
+
+body {
+    animation-name: fade;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    transition: all 0.3s ease;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.page_nav a i {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.page_nav a {
+    width: 30px;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.336);
+    border-right: 1px solid rgba(0, 0, 0, 0.233);
+    margin-right: 10px;
+}
