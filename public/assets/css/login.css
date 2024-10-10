@@ -1,0 +1,179 @@
+.a_login {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.khuon1 p,
+.khuon2_menu p,
+.khuon2_menu a {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 360px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+
+
+}
+
+.khuonlogo {
+    text-align: center;
+    max-height: 80px;
+    border: 1px soild black;
+    background-color: #008080;
+    padding: 25px 0 25px 0;
+    border-radius: 1px;
+
+}
+
+.khuon1 {
+    width: 50%;
+    border-right-style: solid;
+    border-right-color: #F5F5F5;
+    border-right-width: 2px;
+    margin-right: -2px;
+    margin-top: 20px;
+
+}
+
+.khuon1 div button {
+    margin-bottom: 20px;
+    width: 299px;
+    height: 35px;
+    display: block;
+
+
+}
+
+.khuon1 button:hover {
+    cursor: pointer;
+}
+
+.khuon1_menu button:hover {
+    background-color: rgba(0, 162, 255, 0.61);
+
+}
+
+.khuon1_menu button {
+    background-color: #008080c9;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 2px;
+}
+
+.khuon1 div button i {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 9px;
+    width: 16%;
+    height: 110%;
+    background-color: #008080;
+    margin-top: -1.5px;
+    border-radius: 3px;
+
+}
+
+
+button a {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: arial;
+
+}
+
+.noidunglogin {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.khuon2 {
+    width: 50%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.or {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    margin-left: -5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.khuon2 div input {
+    width: 315px;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.khuon2 div input {
+    outline-color: rgba(0, 162, 255, 0.61);
+
+}
+
+.khuon2 div button {
+    width: 299px;
+    height: 35px;
+    background-color: #008080be;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    border-radius: 2px;
+}
+
+.khuon2 div button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 162, 255, 0.61);
+}
+
+.khuon2 div p {
+    margin-bottom: 0;
+}
+
+.khuon2 div button {
+    margin-top: 10px;
+}
+
+.khuon2 div p:last-child {
+    text-align: center;
+}
+
+.khuon2_menu {
+
+    padding-left: 20px;
+
+}
+
+.khuon1 div {
+    margin-left: 20px;
+}
+
+.khuon1_menu p,
+.khuon1-2 p,
+.khuon2_menu p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.khuon2_menu input {
+    margin-bottom: 5px;
+}
+
+.khuon2_menu button {
+    margin-bottom: 10px;
+}

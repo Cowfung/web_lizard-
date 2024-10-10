@@ -1,0 +1,302 @@
+.khuon {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.logo {
+    width: 108px;
+    height: 18px;
+    margin: 18px 0;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.list1 {
+    width: 27%;
+}
+
+.list1 a {
+    float: left;
+}
+
+.list1 .noidung {
+    width: 350px;
+
+    border: 1px black solid;
+}
+
+.list1 .logouser {
+    width: 70px;
+    margin-left: 150px;
+}
+
+.logouser p {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.noidung {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #f0efef;
+
+}
+
+.noidung p,
+.noidung ul,
+.noidung li {
+    width: 300px;
+    margin-left: 30px;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0;
+}
+
+
+
+.list2 {
+    width: 65%;
+}
+
+.noidung2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.noidung2 button:hover {
+    color: white;
+}
+
+.menuuser {
+    border: 1px solid black;
+    width: 150px;
+    background-color: rgb(39, 39, 71);
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+table {
+    width: 100%;
+
+
+}
+
+table th,
+td {
+    padding: 10px;
+    text-align: left;
+
+
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(39, 39, 71);
+    color: white;
+}
+
+.table {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+tbody tr {
+    border: none;
+}
+
+tbody .hinhtron {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #008080;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-right: 10px;
+    z-index: -10;
+
+
+}
+
+.email {
+    width: 400px;
+}
+
+.username {
+    width: 300px;
+}
+
+.roles {
+    width: 490px;
+}
+
+tbody .hinhtron2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(34, 2, 34, 0.712);
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+    position: absolute;
+    left: 70px;
+    z-index: -10;
+}
+
+
+tbody .hinhtron3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+    position: absolute;
+    left: 130px;
+    z-index: -10;
+}
+
+tbody .hinhtron4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+    position: absolute;
+    left: 190px;
+    z-index: -10;
+}
+
+/*----------------------form*/
+.form {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+
+
+.form_content {
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form_content form {
+    padding-left: 10px;
+}
+
+.form_content form p {
+    margin-top: 10px;
+}
+
+.form_content form>input {
+
+    width: 780px;
+}
+
+form .checkbox input {
+    width: 100px;
+    height: 50px;
+
+}
+
+.checkbox {
+    display: flex;
+}
+
+.ht1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #008080;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+
+}
+
+.ht2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(34, 2, 34, 0.712);
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.ht3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.ht4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.button_form {
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 10px;
+
+}

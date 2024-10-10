@@ -1,0 +1,123 @@
+.list3 {
+    width: 73%;
+    height: 2000px;
+}
+.select-btn{
+    height: 2rem;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 5px;
+    background-color:rgba(128, 128, 128, 0.411);
+    width: 30rem;
+    
+}
+.select-btn:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.281);
+}
+.content{
+    padding-top: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.034);
+    width: 31rem;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    display: none;
+}
+
+.wrapper.active .content{
+    display: block;
+}
+.content input{
+    width: 30rem;
+    display: flex;
+}
+.content ul{
+    margin-left: 0px;
+    margin-top: 10px;  
+    padding-left: 0px;
+}
+.option li:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+   
+}
+.option li{
+    width: 29rem;
+    list-style: none;
+}
+.content .option{
+    max-height: 100px;
+    overflow-y: auto;
+}
+.wms_new .wms_input {
+    width: 70rem;
+    height: 3rem;
+    padding-left: 10px;
+}
+.wms_new textarea{
+    width:70rem;
+    height: 5rem;
+    padding-left: 10px;
+}
+.wms_new textarea:focus{
+    outline: none;
+}
+.wms_new input:focus{
+    outline: none;
+}
+.wms_new p{
+    padding-top: 10px;
+}
+/*p-----*/
+.chiase{
+    display: none;
+}
+.hienthi.on .tuychon{
+    display: block;
+}
+.tuychon{
+    display: none;
+}
+.chophep{
+   background-color: rgba(128, 128, 128, 0.555);
+    width: 180px;
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.chophep:hover span{
+    cursor: pointer;
+    color:white;
+}
+.tuychon {
+    padding-left: 0px;
+    text-align: center;
+}
+.tuychon li{
+    list-style: none;
+    width: 180px;
+}
+.tuychon li:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.wms_new p{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.nutsubmit button{
+    margin-top: 20px;
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    text-align: center;
+    margin-left:100px;
+    background-color: rgba(0, 128, 0, 0.527);
+}
+.nutsubmit button:hover{
+    background-color:green;
+}
